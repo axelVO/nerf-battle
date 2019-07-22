@@ -1,0 +1,58 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}FormData{% endblock %}
+
+{% block body %}
+    <h1>FormData</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ form_datum.id }}</td>
+            </tr>
+            <tr>
+                <th>FirstName</th>
+                <td>{{ form_datum.firstName }}</td>
+            </tr>
+            <tr>
+                <th>LastName</th>
+                <td>{{ form_datum.lastName }}</td>
+            </tr>
+            <tr>
+                <th>Adress</th>
+                <td>{{ form_datum.adress }}</td>
+            </tr>
+            <tr>
+                <th>AdressInfo</th>
+                <td>{{ form_datum.adressInfo }}</td>
+            </tr>
+            <tr>
+                <th>City</th>
+                <td>{{ form_datum.city }}</td>
+            </tr>
+            <tr>
+                <th>PostalCode</th>
+                <td>{{ form_datum.postalCode }}</td>
+            </tr>
+            <tr>
+                <th>Location</th>
+                <td>{{ form_datum.location }}</td>
+            </tr>
+            <tr>
+                <th>Phone</th>
+                <td>{{ form_datum.phone }}</td>
+            </tr>
+            <tr>
+                <th>Mail</th>
+                <td>{{ form_datum.mail }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('form_data_index') }}">back to list</a>
+
+    <a href="{{ path('form_data_edit', {'id': form_datum.id}) }}">edit</a>
+
+    {{ include('form_data/_delete_form.html.twig') }}
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}FormData index{% endblock %}
+
+{% block body %}
+    <h1>FormData index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Adress</th>
+                <th>AdressInfo</th>
+                <th>City</th>
+                <th>PostalCode</th>
+                <th>Location</th>
+                <th>Phone</th>
+                <th>Mail</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for form_datum in form_datas %}
+            <tr>
+                <td>{{ form_datum.id }}</td>
+                <td>{{ form_datum.firstName }}</td>
+                <td>{{ form_datum.lastName }}</td>
+                <td>{{ form_datum.adress }}</td>
+                <td>{{ form_datum.adressInfo }}</td>
+                <td>{{ form_datum.city }}</td>
+                <td>{{ form_datum.postalCode }}</td>
+                <td>{{ form_datum.location }}</td>
+                <td>{{ form_datum.phone }}</td>
+                <td>{{ form_datum.mail }}</td>
+                <td>
+                    <a href="{{ path('form_data_show', {'id': form_datum.id}) }}">show</a>
+                    <a href="{{ path('form_data_edit', {'id': form_datum.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="11">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('form_data_new') }}">Create new</a>
+{% endblock %}

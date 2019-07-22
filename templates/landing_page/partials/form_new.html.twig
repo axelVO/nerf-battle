@@ -10,60 +10,62 @@
 </style>
 
 {# Etape 2 #}
+
 <div class="card step_2">
     <div class="card-content">
         <span class="card-title color_product_primary center-align">Étape 2</span>
         <p class="h6 center-align">Remplissez ce formulaire</p>
         <div class="form-wrapper">
+            <input type='hidden' name='time' id='form_time' value=''>
             <div class="input-field">
-                <input type="text">
+                <input type="text" name='firstName'>
                 <label>Prénom</label>
                 <div class="form-error"></div>
             </div>
             <div class="input-field">
-                <input type="text">
+                <input type="text" name='lastName'>
                 <label>Nom</label>
                 <div class="form-error"></div>
             </div>
             <div class="input-field">
-                <input type="text">
+                <input type="text" name='adress'>
                 <label>Adresse</label>
                 <div class="form-error"></div>
             </div>
             <div class="input-field">
-                <input type="text">
+                <input type="text" name='adressInfo'>
                 <label>Complément adr.</label>
                 <div class="form-error"></div>
             </div>
             <div class="input-field">
-                <input type="text">
+                <input type="text" name='city'>
                 <label>Ville</label>
                 <div class="form-error"></div>
             </div>
             <div class="input-field">
-                <input type="text">
+                <input type="text" name='postalCode'>
                 <label>Code postal</label>
                 <div class="form-error"></div>
             </div>
             <div class="input-field">
-                <select>
-                    <option>France</option>
+                <select name='location'>
+                    <option name='france'>France</option>
                 </select>
                 <label>Pays</label>
                 <div class="form-error"></div>
             </div>
             <div class="input-field">
-                <input type="text">
+                <input type="text" name='phone'>
                 <label>Téléphone</label>
                 <div class="form-error"></div>
             </div>
             <div class="input-field">
-                <input type="text">
+                <input type="text" name='mail'>
                 <label>Email</label>
                 <div class="form-error"></div>
             </div>
             <div class="input-field">
-                <input type="text">
+                <input type="text" name='confirmMail'>
                 <label>Confirmation email</label>
                 <div class="form-error"></div>
             </div>
@@ -119,6 +121,7 @@
         </li>
     </ul>
 </div>
+
 {# Etape 3 #}
 <div class="card step_3">
     <div class="card-content">
