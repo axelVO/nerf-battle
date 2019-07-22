@@ -1,10 +1,17 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
+<<<<<<< HEAD
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "fc3cead08c8a2b436c683bf3411ce230",
+=======
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "98661505f9e6dab8027461ad4d096f2c",
+>>>>>>> a9cdfd9a4a0d54004b7d9c9e61c0f47d58d0f5a3
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -2045,6 +2052,7 @@
             "time": "2019-04-21T09:21:45+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/apache-pack",
             "version": "v1.0.1",
             "source": {
@@ -2067,6 +2075,8 @@
             "time": "2017-12-12T01:46:35+00:00"
         },
         {
+=======
+>>>>>>> a9cdfd9a4a0d54004b7d9c9e61c0f47d58d0f5a3
             "name": "symfony/asset",
             "version": "v4.3.2",
             "source": {

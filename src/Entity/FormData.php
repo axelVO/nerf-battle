@@ -24,65 +24,119 @@ class FormData
     /**
      * @var string
      *
+<<<<<<< HEAD
      * @ORM\Column(name="first_name", type="string", length=255, nullable=false)
      */
     private $firstName = '0';
+=======
+     * @ORM\Column(name="first_name", type="string", length=255, nullable=false, options={"default"="'0'"})
+     */
+    private $firstName = '\'0\'';
+>>>>>>> a9cdfd9a4a0d54004b7d9c9e61c0f47d58d0f5a3
 
     /**
      * @var string
      *
+<<<<<<< HEAD
      * @ORM\Column(name="last_name", type="string", length=255, nullable=false)
      */
     private $lastName = '0';
+=======
+     * @ORM\Column(name="last_name", type="string", length=255, nullable=false, options={"default"="'0'"})
+     */
+    private $lastName = '\'0\'';
+>>>>>>> a9cdfd9a4a0d54004b7d9c9e61c0f47d58d0f5a3
 
     /**
      * @var string
      *
+<<<<<<< HEAD
      * @ORM\Column(name="adress", type="string", length=255, nullable=false)
      */
     private $adress = '0';
+=======
+     * @ORM\Column(name="adress", type="string", length=255, nullable=false, options={"default"="'0'"})
+     */
+    private $adress = '\'0\'';
+>>>>>>> a9cdfd9a4a0d54004b7d9c9e61c0f47d58d0f5a3
 
     /**
      * @var string
      *
+<<<<<<< HEAD
      * @ORM\Column(name="adress_info", type="string", length=255, nullable=false)
      */
     private $adressInfo = '0';
+=======
+     * @ORM\Column(name="adress_info", type="string", length=255, nullable=false, options={"default"="'0'"})
+     */
+    private $adressInfo = '\'0\'';
+>>>>>>> a9cdfd9a4a0d54004b7d9c9e61c0f47d58d0f5a3
 
     /**
      * @var string
      *
+<<<<<<< HEAD
      * @ORM\Column(name="city", type="string", length=255, nullable=false)
      */
     private $city = '0';
+=======
+     * @ORM\Column(name="city", type="string", length=255, nullable=false, options={"default"="'0'"})
+     */
+    private $city = '\'0\'';
+>>>>>>> a9cdfd9a4a0d54004b7d9c9e61c0f47d58d0f5a3
 
     /**
      * @var string
      *
+<<<<<<< HEAD
      * @ORM\Column(name="postal_code", type="string", length=255, nullable=false)
      */
     private $postalCode = '0';
+=======
+     * @ORM\Column(name="postal_code", type="string", length=255, nullable=false, options={"default"="'0'"})
+     */
+    private $postalCode = '\'0\'';
+>>>>>>> a9cdfd9a4a0d54004b7d9c9e61c0f47d58d0f5a3
 
     /**
      * @var string
      *
+<<<<<<< HEAD
      * @ORM\Column(name="location", type="string", length=255, nullable=false)
      */
     private $location = '0';
+=======
+     * @ORM\Column(name="location", type="string", length=255, nullable=false, options={"default"="'0'"})
+     */
+    private $location = '\'0\'';
+>>>>>>> a9cdfd9a4a0d54004b7d9c9e61c0f47d58d0f5a3
 
     /**
      * @var string
      *
+<<<<<<< HEAD
      * @ORM\Column(name="phone", type="string", length=255, nullable=false)
      */
     private $phone = '0';
+=======
+     * @ORM\Column(name="phone", type="string", length=255, nullable=false, options={"default"="'0'"})
+     */
+    private $phone = '\'0\'';
+>>>>>>> a9cdfd9a4a0d54004b7d9c9e61c0f47d58d0f5a3
 
     /**
      * @var string
      *
+<<<<<<< HEAD
      * @ORM\Column(name="mail", type="string", length=255, nullable=false)
      */
     private $mail = '0';
+=======
+     * @ORM\Column(name="mail", type="string", length=255, nullable=false, options={"default"="'0'"})
+     */
+    private $mail = '\'0\'';
+>>>>>>> a9cdfd9a4a0d54004b7d9c9e61c0f47d58d0f5a3
 
     public function getId(): ?int
     {

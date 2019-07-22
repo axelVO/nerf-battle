@@ -6,7 +6,10 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "sensio/framework-extra-bundle": "^5.1",
+<<<<<<< HEAD
         "symfony/apache-pack": "^1.0",
+=======
+>>>>>>> a9cdfd9a4a0d54004b7d9c9e61c0f47d58d0f5a3
         "symfony/asset": "4.3.*",
         "symfony/console": "4.3.*",
         "symfony/dotenv": "4.3.*",

@@ -24,44 +24,80 @@ class Products
     /**
      * @var string|null
      *
+<<<<<<< HEAD
      * @ORM\Column(name="title", type="string", length=255, nullable=true)
      */
     private $title;
+=======
+     * @ORM\Column(name="title", type="string", length=255, nullable=true, options={"default"="NULL"})
+     */
+    private $title = 'NULL';
+>>>>>>> a9cdfd9a4a0d54004b7d9c9e61c0f47d58d0f5a3
 
     /**
      * @var int|null
      *
+<<<<<<< HEAD
      * @ORM\Column(name="offer", type="integer", nullable=true)
      */
     private $offer;
+=======
+     * @ORM\Column(name="offer", type="integer", nullable=true, options={"default"="NULL"})
+     */
+    private $offer = 'NULL';
+>>>>>>> a9cdfd9a4a0d54004b7d9c9e61c0f47d58d0f5a3
 
     /**
      * @var int|null
      *
+<<<<<<< HEAD
      * @ORM\Column(name="price_offer", type="integer", nullable=true)
      */
     private $priceOffer;
+=======
+     * @ORM\Column(name="price_offer", type="integer", nullable=true, options={"default"="NULL"})
+     */
+    private $priceOffer = 'NULL';
+>>>>>>> a9cdfd9a4a0d54004b7d9c9e61c0f47d58d0f5a3
 
     /**
      * @var int|null
      *
+<<<<<<< HEAD
      * @ORM\Column(name="fake_price", type="integer", nullable=true)
      */
     private $fakePrice;
+=======
+     * @ORM\Column(name="fake_price", type="integer", nullable=true, options={"default"="NULL"})
+     */
+    private $fakePrice = 'NULL';
+>>>>>>> a9cdfd9a4a0d54004b7d9c9e61c0f47d58d0f5a3
 
     /**
      * @var string|null
      *
+<<<<<<< HEAD
      * @ORM\Column(name="img", type="string", length=255, nullable=true)
      */
     private $img;
+=======
+     * @ORM\Column(name="img", type="string", length=255, nullable=true, options={"default"="NULL"})
+     */
+    private $img = 'NULL';
+>>>>>>> a9cdfd9a4a0d54004b7d9c9e61c0f47d58d0f5a3
 
     /**
      * @var int|null
      *
+<<<<<<< HEAD
      * @ORM\Column(name="offer_popularity", type="integer", nullable=true)
      */
     private $offerPopularity;
+=======
+     * @ORM\Column(name="offer_popularity", type="integer", nullable=true, options={"default"="NULL"})
+     */
+    private $offerPopularity = 'NULL';
+>>>>>>> a9cdfd9a4a0d54004b7d9c9e61c0f47d58d0f5a3
 
     public function getId(): ?int
     {
